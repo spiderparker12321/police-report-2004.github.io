@@ -18,6 +18,7 @@ $pswd = fgets(STDIN);
 
 if $pswd = "hello"{
 $right_password = true;
+echo "hello";
 }
 
 
