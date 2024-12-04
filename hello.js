@@ -2,6 +2,5 @@ var password = "hello";
 var response;
 
 while(response != password){
-response = window.prompt("enter password")
 }
-alert("you got it")
+window.open("https://www.w3schools.com");
