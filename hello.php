@@ -13,7 +13,7 @@ $message = '';
 $in_ar = ["!","%","-","_"];
 $out_ar=["@","$","."];
 
-echo "Enter password: ";
+//echo "Enter password: ";
 $pswd = fgets(STDIN);
 
 if $pswd = "hello"{
