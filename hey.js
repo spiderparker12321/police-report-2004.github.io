@@ -4,4 +4,4 @@ var responce;
 while(responce != password){
 responce = window.prompt("enter password");
 }
-alert("you got it");
+window.location.replace("https://spiderparker12321.github.io/police-report-2004.github.io/stop.html");
