@@ -1,9 +1,12 @@
-var password = "hello";
-var response;
-var start;
+function isPasswordEqual(){
+var password = document.getElementById("password").value;
+var confirmPassword = document.getElementById("confirm_password").value;
 
-while(response != password){
+if(password == hello){
+
 }
-window.location.replace("http://www.w3schools.com");
-
-
+else{
+alert("Password don't match!");
+return false;
+}
+}
