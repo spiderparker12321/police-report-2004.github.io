@@ -3,7 +3,18 @@
 <head>
 </head> 
 <body>
-<button onclick='response'>hey</button>
-    <script src="hello.js"></script>
+<input id="myInput" value="Some text..">
+<button id="myBtn" onclick="javascript:alert('Hello World!')">Button</button>
+
+<script>
+var input = document.getElementById("myInput");
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("myBtn").click();
+  }
+});
+</script>
+    
 </body>
 </html>
