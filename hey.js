@@ -1,4 +1,4 @@
-var password = "parker";
+var password = "disappearance.child.open";
 var responce;
 
 while(responce != password){
