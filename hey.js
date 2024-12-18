@@ -1,4 +1,4 @@
-var password = "disappearance.child.open";
+var password = "hello";
 var responce;
 
 while(responce != password){
