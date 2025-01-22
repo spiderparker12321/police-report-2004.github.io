@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="jquery-1.4.4.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("input[name='login']").click(function() {
+                var s = $("input[name='password']").val();
+
+                if(s == "rawr") {alert('Correct!')}
+                else {alert('Wrong Password')}
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <form name="PasswordField" action="">
+    Password:<input type="password" name="password">
+        <input type="button" value="Log in" name="login">
+    </form>
+</body>
+
+</html>
